@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "aflCkDbJ02i4fBYUZhBnqvSfvI7Aq72XK9yBHhEIsah3pig2k09xlnBVwK50SogSUpLr6qE2UUBfGTLbDfkxsw==",
+  "dgSpecHash": "86XB4sS+rDEQ9GRMACzb4hCXztbHkg4EEGWDy0NqsO4vdOZ3iTNv4Ya01QMNPNDP6cbbQWKBHVM6QzMHhSdSqg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pragatit\\Desktop\\.NET\\productweb\\product\\product.csproj",
+  "projectFilePath": "C:\\Users\\pragatit\\Desktop\\AssignmentASPDOTNET\\productweb\\product\\product.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\pragatit\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\pragatit\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\pragatit\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\pragatit\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",

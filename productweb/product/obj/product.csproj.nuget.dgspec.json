@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pragatit\\Desktop\\.NET\\productweb\\product\\product.csproj": {}
+    "C:\\Users\\pragatit\\Desktop\\AssignmentASPDOTNET\\productweb\\product\\product.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pragatit\\Desktop\\.NET\\productweb\\product\\product.csproj": {
+    "C:\\Users\\pragatit\\Desktop\\AssignmentASPDOTNET\\productweb\\product\\product.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pragatit\\Desktop\\.NET\\productweb\\product\\product.csproj",
+        "projectUniqueName": "C:\\Users\\pragatit\\Desktop\\AssignmentASPDOTNET\\productweb\\product\\product.csproj",
         "projectName": "product",
-        "projectPath": "C:\\Users\\pragatit\\Desktop\\.NET\\productweb\\product\\product.csproj",
+        "projectPath": "C:\\Users\\pragatit\\Desktop\\AssignmentASPDOTNET\\productweb\\product\\product.csproj",
         "packagesPath": "C:\\Users\\pragatit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pragatit\\Desktop\\.NET\\productweb\\product\\obj\\",
+        "outputPath": "C:\\Users\\pragatit\\Desktop\\AssignmentASPDOTNET\\productweb\\product\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pragatit\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
             "MIcrosoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.0, )"

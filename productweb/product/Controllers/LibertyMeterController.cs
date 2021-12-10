@@ -2,6 +2,7 @@
 using product.Data;
 using product.Models;
 
+// This is a comment
 namespace product.Controllers
 {
     public class LibertyMeterController : Controller
@@ -13,6 +14,7 @@ namespace product.Controllers
             _db = db;
 
         }
+
         public IActionResult Index()
         {
             IEnumerable<Product> objProductList = _db.liberty;
@@ -31,7 +33,6 @@ namespace product.Controllers
         {
             _db.liberty.Add(obj);
             _db.SaveChanges();
-
             return RedirectToAction("Index");
         }
     }
