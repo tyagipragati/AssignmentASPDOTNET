@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\product",
+    "\\productweb",
+    "\\product\\bin",
+    "\\product\\bin\\Debug",
+    "\\product\\bin\\Release",
+    "\\product\\Controllers"
+  ],
+  "SelectedNode": "\\product\\product.csproj",
+  "PreviewInSolutionExplorer": false
+}

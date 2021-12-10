@@ -1,0 +1,73 @@
+﻿@model IEnumerable<Product>
+@{
+    ViewData["Title"] = "Index";
+}
+<div class="container p-3">
+    <div class="row pt-4">
+        <div class="col-6">
+            <h2> Gas meter Bill Of Material </h2>
+        </div>
+        <div class="col-6 text-end">
+            <a asp-controller="Product" asp-action="Create" class="btn btn-primary">
+                <i class="bi bi-plus-circle-fill"></i> &nbsp;
+                Add New Part
+            </a>
+        </div>
+    </div>
+</div>
+<br />
+<table class="table table-bordered table-striped" style="width:100%">
+    <thead>
+        <tr>
+            <th>
+                SerialNumber
+            </th>
+            <th>
+                Part Type
+            </th>
+            <th>
+                Number
+            </th>
+            <th>
+                Revision
+            </th>
+            <th>
+                Description
+            </th>
+            <th>
+                Quantity
+            </th>
+            <th>
+                RefDes
+            </th>
+        </tr>
+        <tbody>
+            @foreach(var obj in Model)
+            {
+                <tr>
+                    <td width="50%">
+                        @obj.SerialNumber
+                    </td>
+                    <td width="50%">
+                        @obj.PartType
+                    </td>
+                    <td width="50%">
+                        @obj.Number
+                    </td>
+                    <td width="50%">
+                        @obj.Revision
+                    </td>
+                    <td width="50%">
+                        @obj.Description
+                    </td>
+                     <td width="50%">
+                        @obj.Quantity
+                    </td>
+                     <td width="50%">
+                        @obj.RefDes
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </thead>
+</table>
