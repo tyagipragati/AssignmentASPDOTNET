@@ -12,12 +12,10 @@ namespace product.Models
 
         [Key]
         public int SerialNumber { get; set; }
-        [Required]
         public String PartType { get; set; }
         [Required]
         public int Number { get; set; }
         public int Revision { get; set; }
-        [Required]
         public String Description { get; set; }
         [Required]
         public int Quantity { get; set; }
